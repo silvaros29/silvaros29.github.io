@@ -1,0 +1,732 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="icon" type="image/png" href="icon.ico"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name = "viewport" content = "user-scalable=no, width=device-width">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Campbell Grinder Company: Manual Menu</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script async type="text/javascript"   src="js/dropdown.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    var AMPM = (h >= 12)? " PM":" AM";
+if (h > 12) h = h - 12;
+if (h < 1) h = h + 12;
+document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+    
+</script>
+
+</head>
+
+<META HTTP-EQUIV="Refresh" CONTENT="21600">
+
+    <div class="enclose_site">
+
+        <body onload="startTime()" class="news">
+    <br>
+    
+<!--<header>
+     <div class="head_encase">
+          <div class="logo_icon">
+              <img src="images/cam_logo.png" alt="Campbell Grinder Company">
+          </div>
+     </div>
+</header>-->
+
+        <div class="contact_us2">
+            <a class="text_blue_contact"><img src="images/cam_logo.png" alt="Campbell Grinder Company"></a>
+        </div>
+            
+        <div class="contact_us">
+            <a><button class="text_blue_contact"><div id="txt"></div></button></a>
+        </div>
+    
+<div id="container3">
+	<ul id="slide">
+        
+<!--THE WEATHER-->
+        <li>
+            <iframe src="https://www.meteoblue.com/en/weather/widget/three?geoloc=detect&nocurrent=0&noforecast=0&days=4&tempunit=FAHRENHEIT&windunit=MILE_PER_HOUR&layout=monochrome"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups" style="width: 510px;height: 540px;margin-left: 20px;">
+            </iframe>
+        </li>
+
+<!--BIRTHDAYS-->
+
+        <li>
+            <div class="DateDiv"><span class="DateRange">1/1/2018 to 1/31/2018</span>
+                <div style="background-color: lightgreen;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                January Birthdays
+                </h1> 
+                <p style="color: black;">
+                5th - Scott Peterson<br>
+                18th - Brian Boven<br>
+                22nd - Michael Mastenbrook<br>
+                25th - Oleg Budzinskiy<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">2/1/2018 to 2/28/2018</span>
+                <div style="background-color: lightgreen;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                February Birthdays
+                </h1> 
+                <p style="color: black;">
+                10th - Gregg Marshall<br>
+                17th - Josh Bochenek<br>
+                18th - Michael Dreese<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">3/1/2018 to 3/31/2018</span>
+                <div style="background-color: lightgreen;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                March Birthdays
+                </h1> 
+                <p style="color: black;">
+                1st - Donald Jorgensen<br>
+                2nd - Kevin Meyers<br>
+                12th - Gerald Fleece<br>
+                16th - Brian Walsh<br>
+                17th - Rick Kurdziel<br>
+                17th - Ross McFarland<br>
+                21st - Ronald Frost<br>                
+                24th - Evan Parks<br>
+                27th - Jeremy Martinez<br>
+                29th - Michael Malewitz<br>
+                </p>
+                </div>
+            </div>  
+            
+            <div class="DateDiv"><span class="DateRange">4/1/2018 to 4/30/2018</span>
+                <div style="background-color: lightgreen;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                April Birthdays
+                </h1> 
+                <p style="color: black;">
+                3rd - Nicholas Heykoop<br>
+                6th - Jeffrey Tudor<br>
+                9th - Zachary Rillema<br>
+                13th - Carl Zelmer<br>
+                28th - Joshua Chittenden<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">5/1/2018 to 5/31/2018</span>
+                <div style="background-color: lightgreen;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                May Birthdays
+                </h1> 
+                <p style="color: black;">
+                2nd - Marcus Syriac<br>
+                13th - David Brusseau<br>
+                22nd - Kaitlynn Grooters<br>
+                28th - Abigail Battaglia<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">6/1/2018 to 6/30/2018</span>
+                <div style="background-color: lightgreen;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                June Birthdays
+                </h1> 
+                <p style="color: black;">
+                11th - Michael Langworthy<br>
+                17th - Eric Flaska<br>
+                18th - Steven Coleman<br>
+                25th - Michel Knudsen<br>
+                29th - Paul Hamlin<br>
+                29th - Salvador Silva<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">7/1/2018 to 7/31/2018</span>
+                <div style="background-color: lightgreen;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                July Birthdays
+                </h1> 
+                <p style="color: black;">
+                3rd - Greg Chancellor<br>
+                9th - Scott Shaner<br>
+                11th - Patrick Frost<br>
+                16th - Craig Blawat<br>
+                18th - Steven Shupp<br>
+                25th - Corey Rose<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">8/1/2018 to 8/31/2018</span>
+                <div style="background-color: lightgreen;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                August Birthdays
+                </h1> 
+                <p style="color: black;">
+                3rd - Paul Nottingham<br>
+                10th - Conrad Opperman<br>
+                12th - Jeffrey Hilton<br>
+                14th - Kyle Chomic<br>
+                16th - Rodney Trzil<br>
+                31st - Thomas Garzelloni<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">9/1/2018 to 9/30/2018</span>
+                <div style="background-color: lightgreen;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                September Birthdays
+                </h1> 
+                <p style="color: black;">
+                11th - Andrew Heykoop<br>
+                13th - Glen Gilson<br>
+                14th - Tina Tilton<br>
+                20th - Ron Skvarla<br>
+                26th - David Hanes<br>
+                28th - Kimberly Zaworski<br>
+                </p>
+                </div>
+            </div>  
+            
+            <div class="DateDiv"><span class="DateRange">10/1/2018 to 10/31/2018</span>
+                <div style="background-color: lightgreen;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                October Birthdays
+                </h1> 
+                <p style="color: black;">
+                5th - John Heffelfinger<br>
+                12th - Thomas Ondersma<br>
+                14th - Nathan Lamse<br>
+                23rd - Paul VanTongeren<br>
+                29th - Anthony Cramer<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">11/27/2017 to 11/28/2017</span>
+            <div style="background-color: lightgreen;" class="announcements">
+                
+                <h1 style="color: black; margin-top: 40px;">
+                November Birthdays
+                </h1>       
+                       
+                <br> 
+                
+                <p style="color: black;">
+                1st - Paul Wright<br>
+                1st - Jaime Martinez<br>
+                9th - Eric Pupek<br>
+                10th - Daniel Lohman<br>
+                12th - Michael Chase<br>
+                12th - Clifton Franich<br>
+                12th - Edward Rumsey<br>
+                15th - Chris Hardy<br>
+                17th - Mark Koppenaal<br>
+                18th - Brian Race<br>
+                </p>
+            </div>    
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">12/1/2017 to 12/31/2017</span>
+                <div style="background-color: lightgreen;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                December Birthdays
+                </h1> 
+                <p style="color: black;">
+                1st - Hanz Davis<br>
+                3rd - Bruce Hammond<br>
+                5th - Ellis Michael<br>
+                6th - Jared Peterson<br>
+                14th - Brandon Glassman<br>
+                19th - Craig Weisenauer<br>
+                20th - Matthew Goeb<br>
+                30th - Russell Zinn<br>
+                </p>
+                </div>
+            </div>               
+        </li>          
+
+<!--WORK ANNIVERSARIES-->
+
+        <li>
+            <div class="DateDiv"><span class="DateRange">1/1/2018 to 1/31/2018</span>
+                <div style="background-color: lightgreen;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                January Work Anniversaries
+                </h1> 
+                <p style="color: black;">
+                16 Years - Donald Jorgensen<br>
+                10 Years - Michael Malewitz<br>
+                3 Years - Gerald Fleece<br>
+                3 Years - Jeremy Martinez<br>
+                3 Years - Scott Shaner<br>
+                3 Years - Kimberly Zaworksi<br>
+                2 Years - Joshua Chittenden<br>
+                2 Years - Thomas Ondersa<br>
+                1 Year - Jaime Ibarra<br>
+                1 Year - Mark Koppenaal<br>
+                1 Year - Evan Parks<br>
+                1 Year - Tina Tilton<br>
+                1 Year - Carl Zelmer<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">2/1/2018 to 2/28/2018</span>
+                <div style="background-color: yellow;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                February Work Anniversaries
+                </h1> 
+                <p style="color: black;">
+                19 Years - Greg Chancellor<br>
+                17 Years - Michael Mastenbrook<br>
+                11 Years - Thomas Garzelloni<br>
+                10 Years - Michael Dreese<br>
+                4 Years - Brandon Glassman<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">3/1/2018 to 3/31/2018</span>
+                <div style="background-color: yellow;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                March Work Anniversaries
+                </h1> 
+                <p style="color: black;">
+                32 Years - Ronald Frost<br>
+                12 Years - Patrick Frost<br>
+                4 Years - Russell Zinn<br>
+                3 Years - Craig Blawat<br>
+                3 Years - Michael Chase<br>
+                2 Years - Eric Flaska<br>
+                </p>
+                </div>
+            </div>  
+            
+            <div class="DateDiv"><span class="DateRange">4/1/2018 to 4/30/2018</span>
+                <div style="background-color: yellow;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                April Work Anniversaries
+                </h1> 
+                <p style="color: black;">
+                10 Years - Steven Coleman<br>
+                5 Years - John Heffelfinger<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">5/1/2018 to 5/31/2018</span>
+                <div style="background-color: yellow;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                May Work Anniversaries
+                </h1> 
+                <p style="color: black;">
+                14 Years - Rodney Trzil<br>
+                11 Years - Ronald Skvarla<br>
+                7 Years - Craig Weisenauer<br>
+                2 Years - Kaitlynn Grooters<br>
+                1 Year - Kyle Chomic<br>
+                1 Year - Jared Peterson<br>
+                1 Year - Zachary Rillema<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">6/1/2018 to 6/30/2018</span>
+                <div style="background-color: yellow;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                June Work Anniversaries
+                </h1> 
+                <p style="color: black;">
+                15 Years - Clifton Franich<br>
+                14 Years - Joshua Bochenek<br>
+                4 Years - David Brusseau<br>
+                4 Years - Michel Knudsen<br>
+                4 Years - Rick Kurdziel<br>
+                2 Years - Nicholas Heykoop<br>
+                2 Years - Edward Rumsey<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">7/1/2018 to 7/31/2018</span>
+                <div style="background-color: yellow;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                July Work Anniversaries
+                </h1> 
+                <p style="color: black;">
+                13 Years - Paul VanTongeren<br>
+                13 Years - Paul Nottingham<br>
+                4 Years - Daniel Lohman<br>
+                3 Years - Glen Gilson<br>
+                1 Year - Hanz Davis<br>
+                1 Year - Ellis Michael<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">8/1/2018 to 8/31/2018</span>
+                <div style="background-color: yellow;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                August Work Anniversaries
+                </h1> 
+                <p style="color: black;">
+                18 Years - Marcus Syriac<br>
+                3 Years - Andrew Heykoop<br>
+                3 Years - Michael Langworthy<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">9/1/2018 to 9/30/2018</span>
+                <div style="background-color: yellow;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                September Work Anniversaries
+                </h1> 
+                <p style="color: black;">
+                34 Years - Jeffrey Hilton<br>
+                33 Years - Bruce Hammond<br>
+                19 Years - Chris Hardy<br>
+                14 Years - David Hanes<br>
+                10 Years - Oleg Budzinskiy<br>
+                5 Years - Paul Hamlin<br>
+                5 Years - Gregg Marshall<br>
+                4 Years - Brian Walsh<br>
+                </p>
+                </div>
+            </div>  
+            
+            <div class="DateDiv"><span class="DateRange">10/1/2018 to 10/31/2018</span>
+                <div style="background-color: yellow;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                October Work Anniversaries
+                </h1> 
+                <p style="color: black;">
+                41 Years - Steven Shupp<br>
+                4 Years - Eric Pupek<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">11/27/2017 to 11/28/2017</span>
+                <div style="background-color: yellow;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                November Work Anniversaries
+                </h1> 
+                <p style="color: black;">
+                22 Years - Tony Craymer<br>
+                18 Years - Paul Wright<br>
+                17 Years - Brian Boven<br>
+                12 Years - Brian Race<br>
+                11 Years - Scott Peterson<br>
+                9 Years - Kevin Meyers<br>
+                3 Years - Jeffrey Tudor<br>
+                2 Years - Ross MacFarland<br>
+                2 Years - Salvador Silva-Rodriguez<br>
+                1 Year - Abigail Battaglia<br>
+                1 Year - Corey Rose<br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="DateDiv"><span class="DateRange">12/1/2017 to 12/31/2017</span>
+                <div style="background-color: yellow;" class="announcements">
+                <h1 style="color: black; margin-top: 40px;">
+                December Work Anniversaries
+                </h1> 
+                <p style="color: black;">
+                36 Years - Thomas Picardat<br>
+                4 Years - Conrad Opperman<br>
+                3 Years - Matthew Goeb<br>
+                </p>
+                </div>
+            </div>               
+        </li>  
+           
+<!--ETC / MISC-->
+
+        <li>
+            <div style="background-color: red;" class="announcements">
+                <h1 style="color: white; margin-top: 180px;font-size: 80px;">
+                Welcome GE!
+                </h1>       
+            </div>
+        </li>    
+        
+      </ul>
+</div>
+	    
+<div class="real_body">
+   <div id="container2">
+	<ul id="slide">
+        <li><img src="images/IMG_3668.jpg"></li>
+        <li><img src="images/IMG_4150.jpg"></li>
+        <li><img src="images/IMG_4249.jpg"></li>
+        <li><img src="images/IMG_4250.jpg"></li>
+        <li><img src="images/IMG_4251.jpg"></li>
+        <li><img src="images/IMG_4252.jpg"></li>
+        <li><img src="images/IMG_4253.jpg"></li>
+        <li><img src="images/IMG_4254.jpg"></li>
+        <li><img src="images/IMG_4586.jpg"></li>
+        <li><img src="images/IMG_4727.jpg"></li>
+        <li><img src="images/IMG_5881.jpg"></li>
+        <li><img src="images/IMG_6273.jpg"></li>
+        <li><img src="images/IMG_6332.jpg"></li>
+        <li><img src="images/IMG_6386.jpg"></li>
+        <li><img src="images/IMG_7199.jpg"></li>
+        <li><img src="images/IMG_7369.jpg"></li>
+        <li><img src="images/IMG_7456.jpg"></li>
+        <li><img src="images/IMG_7565.jpg"></li>
+        <li><img src="images/IMG_7728.jpg"></li>
+        <li><img src="images/IMG_8014.jpg"></li>
+        <li><img src="images/IMG_8044.jpg"></li>
+        <li><img src="images/IMG_7138.jpg"></li>
+        <li><img src="images/IMG_8120.jpg"></li>
+        <li><img src="images/IMG_8144.jpg"></li>
+        <li><img src="images/IMG_8151.jpg"></li>
+        <li><img src="images/IMG_8153.jpg"></li>
+        <li><img src="images/IMG_8334.jpg"></li>
+        <li><img src="images/IMG_8616.jpg"></li>
+        <li><img src="images/IMG_9422.jpg"></li>
+        <li><img src="images/IMG_9425.jpg"></li>
+        <li><img src="images/IMG_9434.jpg"></li>
+        <li><img src="images/IMG_9538.jpg"></li>
+        <li><img src="images/IMG_9446.jpg"></li>
+        <li><img src="images/IMG_9552.jpg"></li>
+        <li><img src="images/IMG_9575.jpg"></li>
+        <li><img src="images/IMG_9576.jpg"></li>
+        <li><img src="images/IMG_9588.jpg"></li>
+        <li><img src="images/IMG_6605.jpg"></li>
+        <li><img src="/images/4135.jpeg"></li>
+      </ul>
+</div>
+    
+<!--TO STREAM TV OR SOMETHING DURING LUNCH-->
+    
+<!--<div class = "open">
+ENTER STREAM HERE
+</div>
+    
+<script>
+var d = new Date();
+var hours = d.getHours();
+var minutes = d.getMinutes();
+if(hours >= 11 && hours <= 11 && minutes >= 0 && minutes <= 30 ){
+$(".open").show();
+$(".closed").hide();
+}
+else {  
+$(".closed").show();
+$(".open").hide();
+}
+</script>-->
+    
+    
+<script>
+$(window).load(function(){
+var pages = $('#container2 li'), current=0;
+var currentPage,nextPage;
+var timeoutID;
+var buttonClicked=0;
+
+var handler1=function(){
+buttonClicked=1;
+$('#container2 .button').unbind('click');
+currentPage= pages.eq(current);
+if($(this).hasClass('prevButton'))
+{
+if (current <= 0)
+current=pages.length-1;
+else
+current=current-1;
+nextPage = pages.eq(current);	
+
+nextPage.css("marginLeft",-550);
+nextPage.show();
+nextPage.animate({ marginLeft: 0 }, 2000,function(){
+currentPage.hide();
+});
+currentPage.animate({ marginLeft: 550 }, 2000,function(){
+$('#container2 .button').bind('click',handler1);
+});
+}
+
+}
+
+var handler2=function(){
+if (buttonClicked==0)
+{
+$('#container2 .button').unbind('click');
+currentPage= pages.eq(current);
+if (current >= pages.length-1)
+current=0;
+else
+current=current+1;
+nextPage = pages.eq(current);	
+nextPage.css("marginLeft",550);
+nextPage.show();
+nextPage.animate({ marginLeft: 0 }, 2000,function(){
+});
+currentPage.animate({ marginLeft: -550 }, 2000,function(){
+currentPage.hide();
+$('#container2 .button').bind('click',handler1);
+});
+timeoutID=setTimeout(function(){
+handler2();	
+}, 8000);
+}
+}
+
+$('#container2 .button').click(function(){
+clearTimeout(timeoutID);
+handler1();
+});
+
+timeoutID=setTimeout(function(){
+handler2();	
+}, 8000);
+
+});
+
+
+$(window).load(function(){
+var pages = $('#container3 li'), current=0;
+var currentPage,nextPage;
+var timeoutID;
+var buttonClicked=0;
+
+var handler1=function(){
+buttonClicked=1;
+$('#container3 .button').unbind('click');
+currentPage= pages.eq(current);
+if($(this).hasClass('prevButton'))
+{
+if (current <= 0)
+current=pages.length-1;
+else
+current=current-1;
+nextPage = pages.eq(current);	
+
+nextPage.css("marginLeft",-550);
+nextPage.show();
+nextPage.animate({ marginLeft: 0 }, 2800,function(){
+currentPage.hide();
+});
+currentPage.animate({ marginLeft: 550 }, 2800,function(){
+$('#container3 .button').bind('click',handler1);
+});
+}
+
+}
+
+var handler2=function(){
+if (buttonClicked==0)
+{
+$('#container3 .button').unbind('click');
+currentPage= pages.eq(current);
+if (current >= pages.length-1)
+current=0;
+else
+current=current+1;
+nextPage = pages.eq(current);	
+nextPage.css("marginLeft",550);
+nextPage.show();
+nextPage.animate({ marginLeft: 0 }, 2800,function(){
+});
+currentPage.animate({ marginLeft: -550 }, 2800,function(){
+currentPage.hide();
+$('#container3 .button').bind('click',handler1);
+});
+timeoutID=setTimeout(function(){
+handler2();	
+}, 10000);
+}
+}
+
+$('#container3 .button').click(function(){
+clearTimeout(timeoutID);
+handler1();
+});
+
+timeoutID=setTimeout(function(){
+handler2();	
+}, 32000);
+
+});        
+</script>
+    
+<script>
+$(function() {
+$(".DateDiv").each(function(index) {
+var sRange = $(this).find(".DateRange").html();
+var arrTemp = sRange.split(" to ");
+var dtFrom = new Date(arrTemp[0]);
+var dtTo = new Date(arrTemp[1]);
+var dtNow = new Date();
+if (dtNow >= dtFrom && dtNow <= dtTo)
+$(this).show();
+});
+});
+</script>
+
+    </div>
+
+    <marquee class="mark2" behavior="scroll" direction="left">
+     <img src="images/machines/2.png">
+     <img src="images/machines/3.png">
+     <img src="images/machines/3-1.png">
+     <img src="images/machines/3-3.png">
+     <img src="images/machines/5.png">
+     <img src="images/machines/6.png">
+     <img src="images/machines/7.png">
+     <img src="images/machines/750v1.png">
+     <img src="images/machines/800v1.png">
+     <img src="images/machines/800v2.png">
+     <img src="images/machines/800v3.png">
+     <img src="images/machines/800v4.png">
+     <img src="images/machines/930v1.png">
+     <img src="images/machines/930v2.png">
+     <img src="images/machines/930v4.png">
+     <img src="images/machines/custom1.png">
+     <img src="images/machines/custom2.png">
+     <img src="images/machines/custom4.png">
+    </marquee>     
+
+<marquee class="mark" behavior="scroll" direction="left"><p>Welcome to Campbell Grinder Company. Today is <a id="date"></a>.</p></marquee>    
+    
+<script>
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var n = new Date();
+var y = n.getFullYear();
+var m = n.getMonth();
+var d = n.getDate();
+document.getElementById("date").innerHTML = months[m] + " " + d + " " + y;  
+</script>
+    
+    </body>
+    </div>
+    </META>
+    
+                <footer> 
+                </footer>
+</html>
