@@ -169,8 +169,9 @@ h2{font-family:arial;width:300px;margin-left:80px;}
     margin-bottom:-330px; 
     width: 580px;
 }
-.video_overlay video{
+.video_overlay iframe{
     width: 580px;
+    height: 432px;
 }
 
 
