@@ -161,3 +161,16 @@ h2{font-family:arial;width:300px;margin-left:80px;}
 .h9{font-family:arial;width:750px;margin-left:80px;}
 
 .DateRange, .DateDiv { display: none; }
+
+.video_overlay{
+    position: relative;
+    left: 625px;
+    top: -420px;
+    margin-bottom:-330px; 
+    width: 580px;
+}
+.video_overlay video{
+    width: 580px;
+}
+
+
