@@ -210,7 +210,7 @@ function checkTime(i) {
                 </div>
             </div>
             
-            <div class="DateDiv"><span class="DateRange">11/27/2018 to 11/28/2018</span>
+            <div class="DateDiv"><span class="DateRange">11/1/2018 to 11/30/2018</span>
             <div style="background-color: lightgreen;" class="announcements">
                 
                 <h1 style="color: black; margin-top: 40px;">
@@ -388,12 +388,13 @@ function checkTime(i) {
                 <p style="color: black;">
                 41 Years - Steven Shupp<br>
                 4 Years - Eric Pupek<br>
-                1 Year - Jessica Holmes
+                1 Year - Jessica Holmes<br>
+				1 Year - Jeff Eikenberry<br>
                 </p>
                 </div>
             </div>
             
-            <div class="DateDiv"><span class="DateRange">11/27/2018 to 11/28/2018</span>
+            <div class="DateDiv"><span class="DateRange">11/1/2018 to 11/30/2018</span>
                 <div style="background-color: yellow;" class="announcements">
                 <h1 style="color: black; margin-top: 40px;">
                 November Work Anniversaries
@@ -429,7 +430,7 @@ function checkTime(i) {
                     <div>
                 <div style="background-color: lightgreen;" class="announcements">
                 <h1 style="color: black; margin-top: 200px;">
-                    Welcome to Campbell Grinder!                
+                    Welcome Entek!                
                 </h1> 
                 </div>
                     </div>
@@ -509,7 +510,6 @@ var pages = $('#container2 li'), current=0;
 var currentPage,nextPage;
 var timeoutID;
 var buttonClicked=0;
-
 var handler1=function(){
 buttonClicked=1;
 $('#container2 .button').unbind('click');
@@ -521,7 +521,6 @@ current=pages.length-1;
 else
 current=current-1;
 nextPage = pages.eq(current);	
-
 nextPage.css("marginLeft",-550);
 nextPage.show();
 nextPage.animate({ marginLeft: 0 }, 2000,function(){
@@ -531,9 +530,7 @@ currentPage.animate({ marginLeft: 550 }, 2000,function(){
 $('#container2 .button').bind('click',handler1);
 });
 }
-
 }
-
 var handler2=function(){
 if (buttonClicked==0)
 {
@@ -557,25 +554,19 @@ handler2();
 }, 8000);
 }
 }
-
 $('#container2 .button').click(function(){
 clearTimeout(timeoutID);
 handler1();
 });
-
 timeoutID=setTimeout(function(){
 handler2();	
 }, 8000);
-
 });
-
-
 $(window).load(function(){
 var pages = $('#container3 li'), current=0;
 var currentPage,nextPage;
 var timeoutID;
 var buttonClicked=0;
-
 var handler1=function(){
 buttonClicked=1;
 $('#container3 .button').unbind('click');
@@ -587,7 +578,6 @@ current=pages.length-1;
 else
 current=current-1;
 nextPage = pages.eq(current);	
-
 nextPage.css("marginLeft",-550);
 nextPage.show();
 nextPage.animate({ marginLeft: 0 }, 2800,function(){
@@ -597,9 +587,7 @@ currentPage.animate({ marginLeft: 550 }, 2800,function(){
 $('#container3 .button').bind('click',handler1);
 });
 }
-
 }
-
 var handler2=function(){
 if (buttonClicked==0)
 {
@@ -623,16 +611,13 @@ handler2();
 }, 10000);
 }
 }
-
 $('#container3 .button').click(function(){
 clearTimeout(timeoutID);
 handler1();
 });
-
 timeoutID=setTimeout(function(){
 handler2();	
 }, 32000);
-
 });        
 </script>
     
